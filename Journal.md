@@ -27,3 +27,8 @@ https://jlcpcb.com/partdetail/TDKInvenSense-ICS43434/C5656610
 
 The final part I needed to fully decide on before starting to create a rough schematic was the microcontroller. I ended up choosing the Seeed XIAO ESP32-C3 as it is small, energy efficient, has plenty of IO and would allow me to use BLE to download data off it. 
 
+30/11/2025 - Schematic Mockup - 6:45pm to 
+
+After collecting footprints and files for all the currently selected parts, I began to connect parts together. It was at this point that I ran into my first issue, the microphone outputs an i2s stream which isn't supported by the C3 microcontroller. This led to the decision of switching to an analogue microphone.
+
+https://jlcpcb.com/partdetail/TDKInvenSense-INMP404ACEZR7/C3171789
