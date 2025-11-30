@@ -1,4 +1,4 @@
-30/11/2025
+30/11/2025 - Brainstorming and Component Sourcing - 4:30pm to 6:30pm - 2 Hours
 Brainstormed the basic idea and shopped around for the E-ink display I could base the project around. 
 
 E-ink display choice 1:
@@ -24,3 +24,6 @@ https://jlcpcb.com/partdetail/Sensirion-SCD40_DR2/C3659421
 I decided at this point that I wanted to include a small microphone for basic noise level sensing.
 
 https://jlcpcb.com/partdetail/TDKInvenSense-ICS43434/C5656610
+
+The final part I needed to fully decide on before starting to create a rough schematic was the microcontroller. I ended up choosing the Seeed XIAO ESP32-C3 as it is small, energy efficient, has plenty of IO and would allow me to use BLE to download data off it. 
+
