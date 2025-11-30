@@ -32,3 +32,5 @@ The final part I needed to fully decide on before starting to create a rough sch
 After collecting footprints and files for all the currently selected parts, I began to connect parts together. It was at this point that I ran into my first issue, the microphone outputs an i2s stream which isn't supported by the C3 microcontroller. This led to the decision of switching to an analogue microphone.
 
 https://jlcpcb.com/partdetail/TDKInvenSense-INMP404ACEZR7/C3171789
+
+Scratch that! About 5 mins after decising to go with an analogue mic, the cost and complexity hit a limit and I have now decided to re-scope and not include a microhone for environmental noise detection. Don't worry, I have left in plenty of feature bloat none the less.
